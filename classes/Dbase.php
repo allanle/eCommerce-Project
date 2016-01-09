@@ -1,9 +1,9 @@
 <?php
 class Dbase {
     private $_host = "localhost";
-    private $_user = "allaxknm_allanle";
+    private $_user = "";
     private $_password = "";
-    private $_name = "allaxknm_ecommerce";
+    private $_name = "";
     
     private $_conndb = false;
     public $_last_query = null;
