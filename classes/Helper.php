@@ -39,11 +39,11 @@ class Helper {
 	}
     
     public static function getImgSize($image, $case) {
-        if(is_file($image)) {
-            // 0 => width, 1 => height, 2 => type, 3 => attributes
-            $size = getimagesize($image);
-            return $size[$case];
-        }
-    }
+		if(is_file($image)) {
+			// 0 => width, 1 => height, 2 => type, 3 => attributes
+			$size = getimagesize($image);
+			return $size[$case];
+		}
+	}
 	
 }

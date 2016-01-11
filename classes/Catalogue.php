@@ -23,4 +23,4 @@ class Catalogue extends Application {
                 ORDER BY 'date' DESC";
         return $this->db->fetchAll($sql);
     }
-}
+}  
